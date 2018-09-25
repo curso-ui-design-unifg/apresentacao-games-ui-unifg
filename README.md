@@ -45,7 +45,7 @@ Estudantes ou não de Graduação, que tenham interesse em aprender sobre interf
 
   
 
-As inscrições podem ser feitas no **link para o formulário** [clicando aqui]([https://goo.gl/forms/iaT4OxJaJbv4CCdi1)  mais informações quanto a inicio do curso, quantidade de horas, material e valores, estão todos no formulário!
+As inscrições podem ser feitas no **link para o formulário** [clicando aqui](https://goo.gl/forms/iaT4OxJaJbv4CCdi1)  mais informações quanto a inicio do curso, quantidade de horas, material e valores, estão todos no formulário!
 
   
 
