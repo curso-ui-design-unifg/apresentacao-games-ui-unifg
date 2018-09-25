@@ -40,3 +40,51 @@ Estudantes ou não de Graduação, que tenham interesse em aprender sobre interf
 - Cores (Básico)
 
 - Escolha de Frameworks CSS (Ideal)
+
+## Inscrições
+
+  
+
+As inscrições podem ser feitas no **link para o formulário ([clicando aqui]([https://goo.gl/forms/jE074GFmD4rTD0Ym2))**  mais informações quanto a inicio do curso, quantidade de horas, material e valores, estão todos no formulário!
+
+  
+
+## Ferramentas Utilizadas no Curso
+
+  
+
+- Adobe XD / Figma
+
+- Adobe Photoshop
+
+- Git
+
+- Atom (Editor)
+
+  
+
+## Conteúdo
+
+  
+
+As apresentações das aulas estarão disponíveis para acesso e download logo após cada aula. Em formato **HTML** e **PDF**.
+
+  
+
+  
+
+# 95% Prática
+
+  
+
+É necessário que parte do curso seja dada de forma teórica, mas para melhor aprendizado da turma maior parte do curso será prática! Então a cada aula será entregue uma tarefa que servirá para sua avaliação e **entrega final** do projeto!
+
+  
+> É importante que as tarefas das aulas sejam cumpridas para que seu aprendizado no fim do curso esteja garantido.
+
+
+  
+
+## Git Hub
+
+  As atividades do curso serão desenvolvidas e upadas e corrigidas no **github**, e o projeto final também será mantido por lá!
