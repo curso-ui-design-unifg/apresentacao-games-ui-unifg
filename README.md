@@ -18,6 +18,8 @@ Tem interesse em aprender como funciona esta etapa de Interface na prática? Ent
 
 **Somente para alunos da Faculdade Guararapes (Boa Vista / Piedade)*
 
+
+
 **IMPORTANTE**
 
 > Só receberá certificado caso o projeto seja aprovado! E não haverá devolução do dinheiro do curso!
