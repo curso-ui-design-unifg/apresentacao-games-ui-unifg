@@ -1,5 +1,6 @@
 # Curso UI Design (UniFG)
 **DESCRIÇÃO DO CURSO**
+
 Se você tem interesse em começar a entender como funciona **UI Design** em um projeto de software, este mini-curso é a sua oportunidade! Vamos explorar nestes *4 encontros* **(20 Horas)** a criação de todos os artefatos de importância para a produção de um software em um contexto REAL. Aprenderemos desde a captura de informações na etapa de levantamento de requisitos até a produção de protótipos de baixa e alta fidelidade indo até a entrega dos artefatos finais que servirão de insumo ao produto **(Style Guides / Sprites / .psd)**.
 
 ## Interessado?
