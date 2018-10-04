@@ -20,12 +20,18 @@ Estudantes ou não de Graduação, que tenham interesse em aprender sobre interf
   
 
 - [O que é UI Design]() (o que é, para que serve, em que fase do projeto entra)
+- o que é
+- para que serve
+- em que fase do projeto entra UI Design
 
 - [Organizando seu projeto]() (estrutura de diretórios para um projeto de interface)
+- Estrutura de diretórios para um projeto de interface
 
-- [Aprendendo sobre *Brainstorm*]() (Utilizando a técnica)
+- [Aprendendo sobre *Brainstorm* 5W1H - Briefing]() (Utilizando a técnica)
 
 - [*Mood Board*]()
+- Benchmarketing
+- Wireframes
 
 - [Google Design Sprint]()
 
@@ -37,9 +43,19 @@ Estudantes ou não de Graduação, que tenham interesse em aprender sobre interf
 
 - [Tipografia (Básico)]()
 
-- [Cores (Básico)]()
-
+- [Cores (Conceitos Básicos / Combinações / Variações de Cores para Interfaces / Acessibilidade)]()
+- Hierarquia Visual (Padrão F / Padrão Z)
+- Padrões de Botões
+- Formulários
+- UX e Heuristicas
 - [Escolha de Frameworks CSS]() (Ideal)
+- Style Guide (Design / Código)
+- Protótipos (Baixa [Wireframe] e Alta Fidelidade)
+- Construindo CSS (Baseado na Style Guide)
+- Projeto
+- Considerações Finais
+- Bibliografias
+
 
 ## Inscrições
 
