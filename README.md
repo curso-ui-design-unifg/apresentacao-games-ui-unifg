@@ -116,9 +116,9 @@ O foco do curso não é ensinar princípios de design (estética / alinhamento /
 
 ## Comunicação
 
-A comunicação será por [Slack](https://uidesignunifg.slack.com/messages/CD8DNUHF1/team/UD6KU7KEU/) sendo todas as mensagens relacionadas a dúvidas e tarefas tiradas neste canal!
-> Também utilizaremos [Trello](http://trello.com) para dar andamento a nossas tarefas.
-> Serão utilizadas também caso necessário as issues do Github (que caso seja decido pela turma será explicado como serão utilizadas)
+- A comunicação será por [Slack](https://uidesignunifg.slack.com/messages/CD8DNUHF1/team/UD6KU7KEU/) sendo todas as mensagens relacionadas a dúvidas e tarefas tiradas neste canal!
+- Também utilizaremos [Trello](http://trello.com) para dar andamento a nossas tarefas.
+- Serão utilizadas também caso necessário as issues do Github (que caso seja decido pela turma será explicado como serão utilizadas)
   
 
 ## Git Hub
