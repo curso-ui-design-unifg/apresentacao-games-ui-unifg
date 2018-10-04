@@ -33,6 +33,8 @@ Estudantes ou não de Graduação, que tenham interesse em aprender sobre interf
 - Benchmarketing
 - Wireframes
 
+- [*Grids*]()
+
 - [Google Design Sprint]()
 
 - [*Pixar Storytelling*]()
@@ -68,8 +70,6 @@ As inscrições podem ser feitas no **link para o formulário** [clicando aqui](
 
 ## Ferramentas Utilizadas no Curso
 
-  
-
 - Adobe XD / Figma
 
 - Adobe Photoshop
@@ -82,8 +82,6 @@ As inscrições podem ser feitas no **link para o formulário** [clicando aqui](
 
 ## Conteúdo
 
-  
-
 As apresentações das aulas estarão disponíveis para acesso e download logo após cada aula. Em formato **HTML** e **PDF**.
 
 
@@ -94,7 +92,6 @@ No primeiro dia de aula cada aluno receberá um kit para prototipação durante 
   
 
 # 95% Prática
-
   
 
 É necessário que parte do curso seja dada de forma teórica, mas para melhor aprendizado da turma maior parte do curso será prática! Então a cada aula será entregue uma tarefa que servirá para sua avaliação e **entrega final** do projeto!
@@ -103,6 +100,25 @@ No primeiro dia de aula cada aluno receberá um kit para prototipação durante 
 > É importante que as tarefas das aulas sejam cumpridas para que seu aprendizado no fim do curso esteja garantido.
 
 
+## O que você vai aprender
+  
+
+A partir de informações de projetos reais, como você irá elaborar artefatos para guiar o projeto durante seu decorrer de forma consistente e organizada. Desde a produção de protótipos em papel até a entrega da *Style Guide* para guiar o Frontend a produzir as folhas de estilo do projeto.
+
+
+## O que você NÃO vai aprender 
+
+O foco do curso não é ensinar princípios de design (estética / alinhamento / ritmo / cores e etc) em um nível muito aprofundado! O curso respeitará estes princípios de forma básica para o aprendizado do aluno, porém criação e direção não são o foco deste curso.
+
+## O que você NÃO vai aprender 
+
+O foco do curso não é ensinar princípios de design (estética / alinhamento / ritmo / cores e etc) em um nível muito aprofundado! O curso respeitará estes princípios de forma básica para o aprendizado do aluno, porém criação e direção não são o foco deste curso.
+
+## Comunicação
+
+A comunicação será por [Slack](https://uidesignunifg.slack.com/messages/CD8DNUHF1/team/UD6KU7KEU/) sendo todas as mensagens relacionadas a dúvidas e tarefas tiradas neste canal!
+> Também utilizaremos [Trello](http://trello.com) para dar andamento a nossas tarefas.
+> Serão utilizadas também caso necessário as issues do Github (que caso seja decido pela turma será explicado como serão utilizadas)
   
 
 ## Git Hub
