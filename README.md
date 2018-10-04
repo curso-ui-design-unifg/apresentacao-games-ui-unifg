@@ -13,7 +13,7 @@ Tem interesse em aprender como funciona esta etapa de Interface na prática? Ent
 - Local: [Av. Governador Carlos de Lima Cavalcanti, 155 - Boa Vista, Recife - PE, 50070-110 (Perto da Praça do Derby)](https://goo.gl/maps/h2BkiuKemS12)
 - Inscrições: [http://bit.ly/cursoUI](http://bit.ly/cursoUI) **(até 25/10)** - Boleto / Cartão de *Crédito e Débito*
 - Duração: **27/10 - 17/11** *(4 finais de semana - Sábados)* totalizando **20 Horas**
-- Informações: 81984266770 (Whatsapp - Sérgio Silva)
+- Informações: [**81984266770**](https://api.whatsapp.com/send?phone=5581984266770) (Whatsapp - Sérgio Silva)
 - Currículo do Professor: [https://sergiobsilva.github.io/portfolio/](https://lnkd.in/gwsjx4Z)
 
 **Somente para alunos da Faculdade Guararapes (Boa Vista / Piedade)*
