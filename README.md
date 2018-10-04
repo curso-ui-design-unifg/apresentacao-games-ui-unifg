@@ -85,8 +85,11 @@ As inscrições podem ser feitas no **link para o formulário** [clicando aqui](
 
 As apresentações das aulas estarão disponíveis para acesso e download logo após cada aula. Em formato **HTML** e **PDF**.
 
-  
 
+## Material que acompanha o curso
+
+  
+No primeiro dia de aula cada aluno receberá um kit para prototipação durante o curso.
   
 
 # 95% Prática
