@@ -1,0 +1,715 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<title>Workshop UI Design Mobile | Game</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/favicon_color.png">
+		<meta name="viewport" content="width=680, user-scalable=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="stylesheet" href="styles/screen.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	</head>
+	<body class="list">
+		<!--
+			Debug class on <body> enables
+			cyan grid on slides
+			-->
+		<header class="caption">
+			<h1>Interfaces Mobile / Game</h1>
+			<p>Sérgio B. da Silva</p>
+		</header>
+		<section class="slide cover" id="Cover">
+			<div>
+				<img src="pictures/capa-introdutoria.png" alt="Prototipação Mobile/Game">
+				<!--
+					To apply styles to the certain slides
+					set slide ID to get needed elements
+					-->
+				<style>
+					#Cover h2 {
+						margin:30px 0 0;
+						color:#fff;
+						text-shadow: 2px 2px 2px #000;
+						text-align:center;
+						font-size:70px;
+						}
+					#Cover p {
+						margin:10px 0 0;
+						text-align:center;
+						color:#fff;
+						font-style:italic;
+						font-size:20px;
+						}
+					#Cover p a {
+						color:#fff;
+					}
+					#Cover .subtitle{
+						color:#fff;
+						text-shadow: 2px 2px 2px #000;
+						font-size:50px;
+						font-weight:bold;
+						line-height:120%;
+					}
+				</style>
+			</div>
+
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/capa.jpg" alt="Sérgio Bezerra da Silva">
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#bd294f;"><div>
+			<h2>Agenda</h2>
+		</div></section>
+
+		<section class="slide"><div>
+			<h1>Do que vamo falar?</h1>
+			<h2>Ementa</h2>
+			<ul>
+				<li>Posso sair programando antes de qualquer coisa?</li>
+				<li><i>Brainstorm</i> serve para software também?</li>
+				<li>O que são protótipos?</li>
+				<li>Por onde começo?</li>
+				<li>Ferramentas de Prototipação</li>
+				<li>Interfaces Móveis e de Games são a mesma coisa?</li>
+			</ul>
+		</div></section>
+
+		<section class="slide"><div>
+			<h2>...</h2>
+			<ul>
+				<li>Para Mobile / Web / Desktop</li>
+				<li>Para Jogos</li>
+				<li>Entregáveis de Mobile</li>
+				<li>Se organize (Ferramentas que podem te ajudar)</li>
+				<li>Você sabe o que é uma <i>Style Guide</i>?</li>
+			</ul>
+		</div></section>
+
+		<section class="slide"><div>
+			<h2>...</h2>
+			<ul>
+				<li>Google Design Sprint</li>
+				<li>Artefatos que podem ajudar</li>
+				<li>Pixar Story Telling</li>
+				<li>Future Press Release</li>
+				<li><mark class="important">Hora de Integrar!</mark></li>
+			</ul>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/verdades.png" alt="Verdades">
+			</div>
+		</section>
+
+		<section class="slide shout left" style="background-color:#ff9900;"><div>
+			<h2>Programar?</h2>
+		</div></section>
+
+	<section class="slide">
+		<div>
+			<h2>Posso sair programando antes de qualquer coisa?</h2>
+			<figure>
+				<blockquote>
+					<p>Maior parte do tempo de um projeto é gasto planejando ao invés de programando.</p>
+				</blockquote>
+				<figcaption>Autor Desconhecido</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="slide cover">
+		<div>
+			<img src="pictures/programar.jpg" alt="O Ideal é sair programando?">
+		</div>
+	</section>
+
+		<section class="slide"><div>
+			<h1>O que é recomendando antes de começar a</h1>
+			<h2>Programar</h2>
+			<ul>
+				<li class="next">Filtar os requisitos antes de qualquer coisa (Brainstorm)</li>
+				<li class="next">Esboçar protótipos de baixa fidelidade</li>
+				<li class="next">Subir o nível de fidelidade dos protótipos</li>
+				<li class="next">Testar protótipos com o usuário antes de partir para codificação</li>
+				<li class="next">Codificar primeiro os casos de uso mais importantes para a solução</li>
+				<li class="next">Funções Menores e de preferência atômicas</li>
+			</ul>
+		</div></section>
+
+		<section class="slide"><div>
+			<h1>Por que não?</h1>
+			<ul>
+				<li class="next">Concentração alta de esforço</li>
+				<li class="next">Alta probabilidade de resolver o problema que o usuário acha que tem, mas não o que de fato ele necessita</li>
+				<li class="next">Repetição de funcionalidades</li>
+				<li class="next">Os requisitos simplesmente mudam...</li>
+			</ul>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/brainstorm.jpg" alt="Brainstorm">
+			</div>
+		</section>
+
+		<section class="slide"><div>
+			<h1>Um processo de design pode ajudar?</h1>
+			<h2>Brainstorm</h2>
+			<ul>
+				<li class="next">Auxilia nos processos de análise de requisitos</li>
+				<li class="next"><mark class="important">Ressaltam ideias dentro da equipe</mark></li>
+				<li class="next">Amadurece as Ideias</li>
+				<li class="next">Testa hipoteses antes que sejam produzidos produtos falhos</li>
+				<li class="next">Testa protótipos antes da implementação</li>
+			</ul>
+		</div></section>
+
+		<section class="slide"><div>
+			<h1>Como Funciona</h1>
+			<ul>
+				<li class="next">Pode ser usado como uma Disciplina de Análise</li>
+				<li class="next">Não é um artefato usado só no Design</li>
+				<li class="next"><mark class="important">Esta presente em software mais do que se imagina</mark></li>
+				<li class="next">Muito usado em métodos ágeis</li>
+			</ul>
+		</div></section>
+
+		<section class="slide shout right" style="background-color:#bd294f;"><div>
+			<h2>Protótipos</h2>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/prototipos.png" alt="Para que servem os protótipos?">
+			</div>
+		</section>
+
+		<section class="slide"><div>
+			<h1>Para que servem estes artefatos?</h1>
+			<h2>Protótipos</h2>
+			<ul>
+				<li class="next"><mark class="important">Transformar ideias em produto</mark></li>
+				<li class="next">Mais baratos</li>
+				<li class="next">Mais rápidos</li>
+				<li class="next">Facilmente ajustável</li>
+			</ul>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/produto-prototipos.png" alt="Para que servem os protótipos?">
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/prototipo-altafidelidade.png" alt="Para que servem os protótipos?">
+			</div>
+		</section>
+
+		<section class="slide"><div>
+			<h1>Por onde começo?</h1>
+			<ul>
+				<li class="next">Brainstorm / Requisitos de Software</li>
+				<li class="next">Lápis e Papel</li>
+				<li class="next"><mark class="important">Software de Desenho (Gimp / Photoshop / Corel / Illustrator / Qualquer coisa)</mark></li>
+				<li class="next">Testar com o cliente junto</li>
+			</ul>
+		</div></section>
+
+		<section class="slide shout right" style="background-color:#ff9900;"><div>
+			<h2>Ferramentas</h2>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/ferramentas.png" alt="Ferramentas">
+			</div>
+		</section>
+
+		<section class="slide"><div>
+			<h1>Gratuitas / Curva de Aprendizado</h1>
+			<h2>Ferramentas</h2>
+			<ul>
+				<li class="next"><a href="https://www.adobe.com/br/products/xd.html" title="Download Adobe XD" alt="Download Adobe XD">Adobe XD</a></li>
+				<li class="next"><mark class="important"><a href="https://www.uxpin.com/" title="Download UXPin" alt="Download UXPin">UXPin (7 Dias Grátis)*</mark></li>
+				<li class="next"><a href="https://www.figma.com/downloads/" title="Download Figma" alt="Download Figma">Figma</a></li>
+				<li class="next"><a href="https://marvelapp.com/" title="Download Marvel" alt="Download Marvel"><i>Marvel</i></a></li>
+				<li class="next"><a href="https://www.invisionapp.com/" title="Download InVision APP" alt="Download InVision APP">InVision*</a></li>
+				<li class="next"><a href="https://www.justinmind.com/" title="Download JustMind" alt="Download JustMind">JustMind*</a></li>
+			</ul>
+		</div></section>
+
+		<section class="slide"><div>
+			<h1>Avaliações Pessoais</h1>
+			<ul>
+				<li class="next"><mark class="important">Critérios da Ferramenta</mark></li>
+				<li class="next">Curva de Aprendizado</li>
+				<li class="next">Comunicação Multiplataformas</li>
+				<li class="next">Usabilidade* <i>(Webflow)</i></li>
+				<li class="next">Disponibilidade de Ambiente para Protótipos*</li>
+			</ul>
+			<footer class="footer">
+	        <p>Avaliação pessoal de características da ferramenta que a torna melhor para produção de protótipos segundo a minha visão.</p>
+	    </footer>
+		</div></section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/adobexd.png" alt="Adobe XD">
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/uxpin.png" alt="UXPin">
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/figma.png" alt="Figma">
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/justmind.png" alt="Figma">
+			</div>
+		</section>
+
+		<section class="slide shout left" style="background-color:#bd294f;"><div>
+			<h2>Outras Ferramentas</h2>
+		</div></section>
+
+		<section class="slide"><div>
+			<h2>Pagas e Interessantes</h2>
+			<ul>
+				<li class="next">Adobe Photoshop (Windows e MAC)</li>
+				<li class="next">Sketch (MAC)</li>
+			</ul>
+		</div></section>
+
+		<section class="slide shout right" style="background-color:#ff9900;">
+			<div>
+				<h2>Interfaces</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1> Mobile / Game é a mesma coisa?</h1>
+				<h2>Interfaces</h2>
+				<ul>
+					<li class="next"><mark class="important">NÃO</mark></li>
+					<li class="next">Plataformas Diferentes</li>
+					<li class="next"><i>Processos Diferentes</i></li>
+				</ul>
+			</div>
+	</section>
+
+		<section class="slide shout right" style="background-color:#bd294f;">
+			<div>
+				<h2>Game</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Ferramentas para Prototipação</h1>
+				<h2>Games</h2>
+				<ul>
+					<li class="next">Blender</li>
+					<li class="next">Photoshop</li>
+					<li class="next">Adobe After Effects</li>
+					<li class="next">Adobe Premier</li>
+					<li class="next">Cinema 4D / Maya / ZBrush</li>
+				</ul>
+				<footer class="footer">
+						<p>O levantamento das ferramentas é baseado em pesquisas superficiais, não testei nenhuma das ferramentas!</p>
+				</footer>
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#ff9900;">
+			<div>
+				<h2>Entregáveis</h2>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/infografico-software.png" alt="Etapas que Design Entra">
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Artefatos Auxiliares</h1>
+				<h2>Entregáveis</h2>
+				<ul>
+					<li class="next">Sketches</li>
+					<li class="next"><i>Sprintes</i></li>
+					<li class="next">Arquivos <code>.psd</code> / <code>.xd</code> / <code>.png</code></li>
+					<li class="next"><code>HTML</code> / <code>CSS</code> / <code>Javascript</code> / <code>jQuery</code></li>
+					<li class="next">Mobile: <mark class="important">Android</mark> / <mark class="important">Apple</mark></li>
+				</ul>
+				<footer class="footer">
+						<p>Os artefatos de mobile necessitam de uma outra apresentação devido a quantidade de produtos que são entregáveis para produtos mobile.</p>
+				</footer>
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#bd294f;">
+			<div>
+				<h2>Se Organize</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Antes de Criar...</h1>
+				<h2>Organize-se</h2>
+				<ul>
+					<li class="next">Escolha uma ferramenta de Gestão (<a href="https://trello.com/" target="_blank">Trello</a> / <a href="https://www.teamwork.com/asana-alternative" target="_blank">Asana</a>)</li>
+					<li class="next">Separe seu planejamento por etapas</li>
+					<li class="next">Mantenha a ferramenta atualizada!</li>
+					<li class="next">Cumpra o prometido...</li>
+					<li class="next">Estipule metas...</li>
+					<li class="next">Mantenha e sempre busque FEEDBACK <mark class="important">(Time e demais envolvidos)</mark></li>
+				</ul>
+				<footer class="footer">
+						<p>As ferramentas citadas nesta apresentação são baseadas em experiências pessoais, podendo você e/ou seu time definerem outra que melhor se encaixe no seu contexto!</p>
+				</footer>
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#ff9900;">
+			<div>
+				<h2>Outras Ferramentas</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Além da Gestão</h1>
+				<h2>Outras Ferramentas</h2>
+				<ul>
+					<li class="next"><a href="https://github.com/" target="_blank">Github</a> / <a href="https://bitbucket.org/" target="_blank">Bitbucket</a></li>
+					<li class="next"><a href="https://www.dropbox.com/pt_BR/" target="_blank">Dropbox</a> / <a href="https://www.google.com.br/drive/apps.html" target="_blank">Google Drive</a></li>
+					<li class="next"><a href="https://slack.com/" target="_blank">Slack</a> / <a href="https://web.telegram.org/#/login" target="_blank">Telegram</a></li>
+					<li class="next"><a href="https://www.mindmeister.com/pt/" target="_blank">MindMeister</a> / <a href="https://www.xmind.net/zen/" target="_blank">XMind</a></li>
+					<li class="next"><a href="https://cuckoo.team/" target="_blank">Cuckoo Team</a> / <a href="https://pomodoro-tracker.com/" target="_blank">Pomodoro</a></li>
+					<li class="next"><a href="https://ide.atom.io/" target="_blank">Atom</a> / <a href="http://brackets.io/" target="_blank">Brackets</a></li>
+				</ul>
+				<footer class="footer">
+						<p>As ferramentas citadas nesta apresentação são baseadas em experiências pessoais, podendo você e/ou seu time definerem outra que melhor se encaixe no seu contexto!</p>
+				</footer>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/ferramentas-gestao.png" alt="Figma">
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#000000;">
+			<div>
+				<h2>Style Guide</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Você sabe para que serve</h1>
+				<h2>Style Guide</h2>
+				<ul>
+					<li class="next">O que é?</li>
+					<li class="next">Para que serve?</li>
+					<li class="next">Manter Padrões no decorrer do projeto</li>
+					<li class="next">Artefato de Design e de Código [Pattern Code / Design]</li>
+					<li class="next">Artefato Documental importante</li>
+					<li class="next">Como fazer? Quanto tempo leva? Compensa?</li>
+					<li class="next"><a href="https://trello-attachments.s3.amazonaws.com/5ae3ff5c166beb785968493e/5b290103645158fa1b92e58d/b9e7702f82c6ef45790b266e1bc087db/ui-style-guide-agilfap-v3.pdf" target="_blank">Exemplo para Design</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<ul>
+					<li class="next"><a href="http://bit.ly/2JQwUCY" target="_blank">Exemplo para Código</a></li>
+				</ul>
+				<footer class="footer">
+						<p>Construir a Style Guide no começo economiza tempo e concentra esforços valiosos no começo do projeto ao invés de definir os padrões durante o andamento do projeto.</p>
+				</footer>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/google-design-sprint.png" alt="Google Design Sprint">
+			</div>
+		</section>
+
+
+		<section class="slide">
+			<div>
+				<h1>Como Utilizar</h1>
+				<h2>Google Design Sprint</h2>
+				<ul>
+					<li class="next">De onde vem a metodologia</li>
+					<li class="next">Qual o objetivo</li>
+					<li class="next">Por que usar em <i>Desenvolvimento de Software</i>?</li>
+					<li class="next">O pulo do gato sobre metodologias <i>[Spoiler]</i></li>
+					<li class="next">De toda a metodologia, o que é importante usar?</li>
+					<li class="next">Consulta: <a href="https://designsprintkit.withgoogle.com/" target="_blank">Google Design Sprint (em Inglês)</a></li>
+				</ul>
+			</div>
+			<footer class="footer">
+					<p>Outro pulo do gato que ninguém irá te explicar e/ou recomendar: FAÇAM INGLÊS enquanto estão graduando!</p>
+			</footer>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Para saber mais sobre</h1>
+				<h2>Google Design Sprint</h2>
+				<ul>
+					<li class="next"><a href="https://www.amazon.com.br/Sprint-M%C3%A9todo-Google-Testar-Aplicar/dp/8551001523?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=52bafbe7-6dfe-4e62-bd9e-ce24afe79e9d">Livro Google Design Sprint <i>(Português Impresso)</i></a></li>
+					<li class="next"><a href="https://www.amazon.com.br/Sprint-Jake-Knapp-ebook/dp/B06XPPS4JW?tag=goog0ef-20&smid=A18CNA8NWQSYHH&ascsubtag=52bafbe7-6dfe-4e62-bd9e-ce24afe79e9d">Livro Google Design Sprint <i>(Português Digital)</i></a></li>
+					<li class="next">Artigo sobre <a href="https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659">Google Design Sprint <i>(Português)</i></a></li>
+					<li class="next">Phases & Methods <a href="https://designsprintkit.withgoogle.com/methods/">Artefato (Inglês)</i></a></li>
+					<li class="next">Curso <a href="https://br.udacity.com/blog/post/processo-design-sprint-google">Google Design Sprint <i>(Português)</i> Udacity</a></li>
+					<li class="next">Consulta: <a href="https://designsprintkit.withgoogle.com/" target="_blank">Google Design Sprint <i>(em Inglês)</i></a></li>
+				</ul>
+			</div>
+			<footer class="footer">
+					<p>Biblioteca de Livros / Cursos e Artigos de Google Design Sprint</p>
+			</footer>
+		</section>
+
+
+		<section class="slide">
+			<div>
+				<ul>
+					<li class="next">Artigo Medium: <a href="https://medium.com/maxmilhas-tech/o-que-%C3%A9-design-sprint-e-como-criamos-um-produto-novo-em-3-dias-a1a6d05a9ec" target="_blank">O que é Design Sprint e como criamos um produto novo em 3 dias <i>(em Português)</i></a></li>
+					<li class="next"><a href="https://www.youtube.com/watch?v=V1UL_Or8E2Q">Você sabe o que é Design Sprint?</i></a></li>
+					<li class="next"><a href="https://www.youtube.com/watch?v=EbD8nSWN_hw">DESIGN SPRINT REMOTO (COM RENATO CONTAIFER - STARTAÊ)</a></li>
+					<li class="next"><a href="https://www.youtube.com/watch?v=_cmosKxdaGE">Google Design Sprints | Bruno Mendes | Papo Reto</a></li>
+					<li class="next"<a href="https://www.youtube.com/watch?v=21UCr0pYgEk">Koji Pereira (Google) • User Experience, Google Design Sprint e Product Design</a></li>
+				</ul>
+			</div>
+			<footer class="footer">
+					<p>Vídeos Interessantes sobre Google Design Sprint em Português!</p>
+			</footer>
+		</section>
+
+		<section class="slide shout right" style="background-color:#bd294f;">
+			<div>
+				<h2>Artefatos</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Google Design Sprint</h1>
+				<h2>Artefatos</h2>
+				<ul>
+					<li class="next">Eu devo usar o que da metodologia?</li>
+					<li class="next">O que for mais importante para você!</li>
+					<li class="next">O que vou falar aqui são só produtos de escolha pessoal!</li>
+					<li class="next">Pixar Story Telling</li>
+					<li class="next">Future Press Release</li>
+					<li class="next">Não tem mais coisas???</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/pixar-storytelling.png" alt="Pixar Storytelling">
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#000000;">
+			<div>
+				<h2>Pixar Storytelling</h2>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Google Design Sprint</h1>
+				<h2>Pixar Storytelling</h2>
+				<ul>
+					<li class="next">De onde vem? (<i>Storytelling</i>)</li>
+					<li class="next">O que é?</li>
+					<li class="next">Para que serve?</li>
+					<li class="next">Quando eu devo usar?</li>
+					<li><mark class="important">Vídeos</mark></li>
+					<li class="next"><a href="https://www.youtube.com/watch?v=1rMnzNZkIX0" target="_blank">Pixar in a Box: Introduction to Storytelling</a></li>
+					<li class="next"><a href="https://www.youtube.com/watch?v=HlfRsKPdV0g" target="_blank">Pixar in a Box Season 3: The Art of Storytelling</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/future-press-release.png" alt="Future Press Release">
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#000000;">
+			<div>
+				<h2>Future Press Release</h2>
+			</div>
+		</section>
+
+
+		<section class="slide">
+			<div>
+				<h1>Google Design Sprint</h1>
+				<h2>Future Press Release</h2>
+				<ul>
+					<li class="next">De onde vem? (<i>Future Press Release</i>)</li>
+					<li class="next">O que é?</li>
+					<li class="next">Para que serve?</li>
+					<li class="next">Quando eu devo usar?</li>
+					<li><mark class="important">Artigos</mark></li>
+					<li class="next"><a href="https://medium.com/nayra-cruz/como-usei-processos-de-ux-para-ajudar-as-pessoas-a-manterem-habitos-saudaveis-de-alimentacao-8fbd72f9947c" target="_blank">Como usei processos de UX para ajudar as pessoas a manterem hábitos saudáveis de alimentação</a></li>
+					<li class="next"><a href="https://medium.com/bluesoft-labs/try-an-internal-press-release-before-starting-new-products-867703682934" target="_blank">Try an Internal Press Release before starting new Products</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/integrando.png" alt="Hora de Integrar!">
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#ff9900;"><div>
+			<h2>Bora Integrar?</h2>
+		</div></section>
+
+		<section class="slide">
+			<div>
+				<h1>Por onde eu começo?</h1>
+				<h2>Hora de Integrar</h2>
+				<ul>
+					<li class="next">Consulte seu <a href=""><i>Style Guide</i></a> e siga o fluxo!</li>
+					<li class="next">Folhas de Estilo</li>
+					<li class="next">Padrões de Código (Backend / Frontend / HTML / CSS)</li>
+					<li class="next">Siga o Protótipo</li>
+					<li class="next">Protótipos não são contratos imutáveis!</li>
+					<li class="next">Servem para te ajudar a chegar a um objetivo!</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide shout left" style="background-color:#000000;"><div>
+			<h2>Biblioteca</h2>
+		</div></section>
+
+		<section class="slide">
+			<div>
+				<h1>Design / Design Thinking / Service Design</h1>
+				<h2>Biblioteca</h2>
+				<ul>
+					<li>A Book Apart Collection / Vários Autores / <a href="https://abookapart.com/collections/standards-collection">Site da Editora</a></li>
+					<li><a href="http://amzn.to/2Ds4FTF">100 Things Every Designer Needs to Know about People</a></li>
+					<li><a href="http://amzn.to/2C4VJY6">Confiança Criativa</a></li>
+					<li><a href="http://amzn.to/2llEW7W">Design Thinking — Tim Brown</a></li>
+					<li><a href="http://amzn.to/2C3giny">Isto É Design Thinking de Serviços</a></li>
+					<li><a href="http://amzn.to/2CiaxiG">The Service Startup</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide shout left" style="background-color:#000000;"><div>
+			<h2>Cursos</h2>
+		</div></section>
+
+		<section class="slide">
+			<div>
+				<h1>UI Design / Frontend / Design</h1>
+				<h2>Cursos</h2>
+				<ul>
+					<li><b>Aela.io</b> - Concept Design | <a href="https://aela.io/" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$4.000,00</mark></li>
+					<li><b>Udacity Nanodegree</b> - Fundamentos Web Front-End | <a href="https://br.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$599,00</mark></li>
+					<li><b>Origamid</b> - Vários Cursos | <a href="https://www.origamid.com/" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$1.200,00</mark></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Mais cursos...</h1>
+				<ul>
+					<li><b>Udemy</b> - UX & Design Thinking | <a href="https://www.udemy.com/ux-design/" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$594,90</mark></li>
+					<li><b>Caio Vinicius</b> - Concept Design | <a href="http://cursos.caiovinnicius.com.br/" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$697,00</mark></li>
+					<li><b>Keven Jesus</b> - Certificação Bootstrap | <a href="http://www.certificacaobootstrap.com.br/" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$297,90</mark></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div>
+				<h1>Motion Design</h1>
+				<h2>Extra</h2>
+				<ul>
+					<li><b>Vida de Motion</b> - Element 3D | <a href="http://curso.vidademotion.com.br/1" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$997,00</mark></li>
+					<li><b>LayerLemonade</b> - Motion Design | <a href="http://download.layerlemonade.com/motion-design-essencial-after-effects-c4d" target="_blank">Site do Curso (Online)</a> | Valor do Curso: <mark class="important">R$970,00</mark></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide shout right" style="background-color:#ff9900;"><div>
+			<h2>Vaga</h2>
+		</div></section>
+
+		<section class="slide">
+			<div>
+				<h1>UI Design / Programador Visual</h1>
+				<h2>Vaga de Trabalho</h2>
+				<ul>
+					<li><b>FACEPE</b> - Fundação de Amparo a Pesquisa</li>
+					<li><b>UI Designer</b> <a href="https://goo.gl/forms/d1fZousLxQNFRXEb2" target="_blank">Formulário de Inscrição</a></li>
+					<li><b>Bolsa</b> - à partir de: <mark class="important">R$1.200,00</mark></li>
+					<li><b>Conhecimentos: </b>Princípios de Design / HTML / CSS / Javascript (Básico) / Processos de Software (Análise de Requisitos, Etapas de Desenvolvimento) / Git</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="slide cover">
+			<div>
+				<img src="pictures/frase.png" alt="Albert Einstein">
+			</div>
+		</section>
+
+		<section class="slide"><div>
+			<h1>Contato</h1>
+			<h2>Sérgio Bezerra da Silva</h2>
+			<ul>
+				<li><span>Email: <a href="mailto:sergiobslva@gmail.com" target="_blank">sergiobslva@gmail.com</a></span></li>
+				<li><span>WhatsApp: <a href="https://api.whatsapp.com/send?phone=5581984266770&text=Olá%20Sérgio,%20sou%20aluno%20do%20professor%20Cloves%20Rocha%20e%20tenho%20uma%20dúvida!%20Pode%20me%20ajudar?" target="_blank">+55(81)98426-6770</a></span></li>
+				<li><span>Portfólio: <a href="https://sergiobsilva.github.io/portfolio/" target="_blank">Clique Aqui</a></span></li>
+				<li><span>Facebook: <a href="http://m.me/sergio.bezerradasilva" target="_blank">Me mande mensagem!</a></span></li>
+			</ul>
+		</div></section>
+		<!--
+			To hide progress bar from entire presentation
+			just remove “progress” element.
+			-->
+		<div class="progress"><div></div></div>
+		<script src="../../shower.js"></script>
+		<!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+	</body>
+	</html>
